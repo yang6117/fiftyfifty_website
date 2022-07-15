@@ -1,5 +1,9 @@
 /* styles.css */
 
+.title {
+    color: black;
+}
+
 .alert-text { 
     color: red;
 }
