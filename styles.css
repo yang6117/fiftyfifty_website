@@ -10,6 +10,20 @@
 
 * {
     padding: 10px;
-    border: 2px solid grey;
-    margin: 30px;
+    border: 10px solid grey;
+    margin: 5x;
 } /* this makes it so it gives every element a 2 pixel-wide solid grey border*/
+
+.flex-container {
+    display: flex; 
+}
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: grey;
+    border: 2px solid black;
+    height: 500px;
+    flex: 1; 
+}
+
+
