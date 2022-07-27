@@ -4,26 +4,21 @@
     color: black;
 }
 
-.alert-text { 
-    color: red;
-}
-
-* {
-    padding: 10px;
-    border: 10px solid grey;
-    margin: 5x;
-} /* this makes it so it gives every element a 2 pixel-wide solid grey border*/
 
 .flex-container {
-    display: flex; 
-}
+    display: flex;
+  }
   
   /* this selector selects all divs inside of .flex-container */
-  .flex-container div {
-    background: grey;
-    border: 2px solid black;
-    height: 500px;
-    flex: 1; 
+.flex-container div {
+    background: white;
+    border: 4px solid grey;
+    margin: 4px;
+    height: 100px;
+    flex: 1 1 0%;
 }
 
-
+child {
+    justify-content: center;
+    align-items: center;
+}
